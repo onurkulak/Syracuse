@@ -15,26 +15,22 @@ package gameengine.GameElementClasses;
 //things related to bonus updates calculations need to be implemented in all subclasses
 import java.util.ArrayList;
 public abstract class Building {
-    private final int cost, width, height, constructionDuration, id,
-            upgradeCost1, upgradeCost2, maximumAvailableLevel;
+    private final int cost, width, height, constructionDuration, maximumAvailableLevel;
     private final String name;
     private final int[] requiredBuildings, requirementsRange;
     private final boolean canBuiltOnlyOnce;
     private boolean unlocked;
     private final ArrayList<Building> relatedBuildings;
     private final ArrayList<Specification> instances;
+    private boolean requirementDependOnlyOnAge;
+    private int requirementAge, id;
 
-    public Building(int cost, int width, int height, int constructionDuration,
-            int id, int upgradeCost1, int upgradeCost2,
-            int maximumAvailableLevel, String name, int[] requiredBuildings,
-            int[] requirementsRange, boolean canBuiltOnlyOnce) {
+    public Building(int cost, int width, int height, int constructionDuration, int id, int maximumAvailableLevel, String name, int[] requiredBuildings, int[] requirementsRange, boolean canBuiltOnlyOnce) {
         this.cost = cost;
         this.width = width;
         this.height = height;
         this.constructionDuration = constructionDuration;
         this.id = id;
-        this.upgradeCost1 = upgradeCost1;
-        this.upgradeCost2 = upgradeCost2;
         this.maximumAvailableLevel = maximumAvailableLevel;
         this.name = name;
         this.requiredBuildings = requiredBuildings;
@@ -67,7 +63,7 @@ public abstract class Building {
         return -1;
     }
     
-    public void passTurn(int[][][] cityMap){
+    public void passTurn(int[][] cityMap){
         for(int i=0; i<instances.size();i++)
             if(instances.get(i).construct()){
                 updateBonuses(cityMap, this,i);
@@ -79,7 +75,7 @@ public abstract class Building {
     
     
     //needs to be implemented in subclasses separately
-    public void updateBonuses(int[][][] cityMap, Building caller, int buildingInstance){
+    public void updateBonuses(int[][] cityMap, Building caller, int buildingInstance){
         
     }
     
@@ -144,13 +140,6 @@ public abstract class Building {
         return id;
     }
 
-    public int getUpgradeCost1() {
-        return upgradeCost1;
-    }
-
-    public int getUpgradeCost2() {
-        return upgradeCost2;
-    }
 
     public int getMaximumAvailableLevel() {
         return maximumAvailableLevel;
@@ -183,6 +172,28 @@ public abstract class Building {
     public ArrayList<Specification> getInstances() {
         return instances;
     }
+
+    public boolean isRequirementDependOnlyOnAge() {
+        return requirementDependOnlyOnAge;
+    }
+
+    public void setRequirementDependOnlyOnAge(boolean requirementDependOnlyOnAge) {
+        this.requirementDependOnlyOnAge = requirementDependOnlyOnAge;
+    }
+
+    public int getRequirementAge() {
+        return requirementAge;
+    }
+
+    public void setRequirementAge(int requirementAge) {
+        this.requirementAge = requirementAge;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+    
+    
     
     
 }

@@ -29,7 +29,7 @@ public class FabricMerchant extends ProductionBuilding{
     }
     
     public int getTotalDyeUse(int dyedFabricAmount){
-        double total=0; double cost=manufacturedMaterials[1].getCostAmount()[2];
+        double total=0; double cost=manufacturedMaterials[1].getCostAmount()[1];
         int[] levels=new int[2]; int[] productionCapacities=new int[2];
         for(int i=0;i<getInstances().size();i++){
             int level=getInstances().get(i).getLevel();

@@ -11,15 +11,49 @@ package gameengine.GameElementClasses;
  */
 import java.util.ArrayList;
 public class PlayerFaction extends Faction{
-    private final ArrayList<Province> provinces;
+    private final ArrayList<CityProvince> cities;
+    private final ArrayList<Garrison> garrisons;
+    private CityProvince syracuse;
+    private final ArrayList<County> counties;
+    private final ArrayList<Army> armies;
+    private final ArrayList<Navy> navies;
 
     public PlayerFaction(String name) {
         super(name);
-        provinces = new ArrayList();
+        cities=new ArrayList();
+        garrisons=new ArrayList();
+        counties=new ArrayList();
+        armies=new ArrayList();
+        navies=new ArrayList();
     }
 
-    public ArrayList<Province> getProvinces() {
-        return provinces;
+    public ArrayList<CityProvince> getCities() {
+        return cities;
     }
+
+    public ArrayList<Garrison> getGarrisons() {
+        return garrisons;
+    }
+
+    public CityProvince getSyracuse() {
+        return syracuse;
+    }
+
+    public ArrayList<County> getCounties() {
+        return counties;
+    }
+
+    public ArrayList<Army> getArmies() {
+        return armies;
+    }
+
+    public ArrayList<Navy> getNavies() {
+        return navies;
+    }
+
+    public void setSyracuse(CityProvince syracuse) {
+        this.syracuse = syracuse;
+    }
+    
     
 }

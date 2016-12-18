@@ -27,7 +27,7 @@ public class County extends LandProvince{
         }
     }
     
-    //turn is assumed 0*12n for december
+    //turn is assumed 0+12n for december
     public int getResource(int turn,boolean isThereObservatory){
         
         if(producedMaterial.isSeasonalMaterial()){

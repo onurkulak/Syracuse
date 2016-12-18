@@ -26,6 +26,10 @@ public abstract class StorageBuilding extends WorkBuilding{
         this.capacities = capacities;
         nearAgoraInstances= new ArrayList();
     }
+
+    public Material[] getStoredResources() {
+        return storedResources;
+    }
     
     
     public int[] getTotalStorageCapacities(){
@@ -60,7 +64,7 @@ public abstract class StorageBuilding extends WorkBuilding{
     }
 
     @Override //should check for agora
-    public void updateBonuses(int[][][] cityMap, Building caller, int buildingInstance) {
+    public void updateBonuses(int[][] cityMap, Building caller, int buildingInstance) {
         super.updateBonuses(cityMap, caller, buildingInstance); //To change body of generated methods, choose Tools | Templates.
     }    
 }

@@ -9,6 +9,7 @@ package gameengine.GameElementClasses;
  *
  * @author onur
  */
+import java.util.ArrayList;
 public class LandUnit extends Unit{
     //attributes of a unit
     private final boolean mounted, melee, armored;
@@ -41,10 +42,30 @@ public class LandUnit extends Unit{
         this.horseCost = horseCost;
         this.armorCost = armorCost;
     }
+
     
     //needs to be implemented
-    public double getPowerAfterBonusesApplied(Army attacker, Army defender,
-            isAttacking boolean, isSiegeBattle boolean){
+    //if is attacking and siege battle city raider bonus applied
+    //if siege and defending city defence bonus applied
+    //if siege battle mounted units don't get bonuses
+
+    //if the [1] element in first array hoplite and [1] on the other array is 350 that means army includes 350 hoplites etc.
+
+    //if enemy's number of cavalries is less than the unit's count cavalrySuperiorityBonus applied
+    //if unit has swarmbonus and count is more than 1000 swarmbonus applies
+    //if enemy unit has no "againstmountedbonus" elephant effect bonus applies
+
+    // every bonus is a double value
+    //say enemy army units are 1/3 ranged then
+    //(1/3)*againstRangedBonus is added to the total bonus of the unit
+    //againstBlabla bonuses are applied like above example, 
+    //portion of the enemy army that fits the description*bonus value
+
+    //in the end method returns basePower*count*(1+totalBonus)
+    //getBasePower() is an inherited method, returns basepower
+
+    public double getPowerAfterBonusesApplied(int count, ArrayList<LandUnit> enemyArmyUnits ,
+        ArrayList<Integer> enemyArmyUnitCounts,boolean isAttacking,boolean isSiegeBattle){
     
 }
 }

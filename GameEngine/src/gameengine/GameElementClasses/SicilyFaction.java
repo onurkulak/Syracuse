@@ -18,7 +18,6 @@ public class SicilyFaction extends ThirdAgeFaction{
     private final Army averageArmyComposition;
     private final Navy averageNavyComposition;
     private final Region capital;
-    private boolean atWarWithPlayer;
     private boolean rebel;
     private int tradeExceptionToThePlayerLeft,
             tradeExceptionFromThePlayerLeft,
@@ -33,7 +32,6 @@ public class SicilyFaction extends ThirdAgeFaction{
         this.averageArmyComposition = averageArmyComposition;
         this.averageNavyComposition = averageNavyComposition;
         this.capital = capital;
-        this.atWarWithPlayer = atWarWithPlayer;
         this.rebel = revel;
         tradeExceptionToThePlayerLeft=0;
         tradeExceptionFromThePlayerLeft=0;

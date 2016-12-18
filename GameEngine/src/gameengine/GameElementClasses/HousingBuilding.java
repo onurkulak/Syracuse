@@ -17,8 +17,8 @@ public abstract class HousingBuilding extends Building {
     private final int[] housingHappinessPerLevel;
     private final int BATH_HAPPINESS=0;
 
-    public HousingBuilding(int[] housingPerLevel, int[] housingHappinessPerLevel, int cost, int width, int height, int constructionDuration, int id, int upgradeCost1, int upgradeCost2, int maximumAvailableLevel, String name, int[] requiredBuildings, int[] requirementsRange, boolean canBuiltOnlyOnce) {
-        super(cost, width, height, constructionDuration, id, upgradeCost1, upgradeCost2, maximumAvailableLevel, name, requiredBuildings, requirementsRange, canBuiltOnlyOnce);
+    public HousingBuilding(int[] housingPerLevel, int[] housingHappinessPerLevel, int cost, int width, int height, int constructionDuration, int id, int maximumAvailableLevel, String name, int[] requiredBuildings, int[] requirementsRange, boolean canBuiltOnlyOnce) {
+        super(cost, width, height, constructionDuration, id, maximumAvailableLevel, name, requiredBuildings, requirementsRange, canBuiltOnlyOnce);
         this.instancesCoveredByBaths = new ArrayList();
         this.housingPerLevel = housingPerLevel;
         this.housingHappinessPerLevel = housingHappinessPerLevel;

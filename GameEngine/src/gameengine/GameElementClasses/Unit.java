@@ -14,8 +14,9 @@ public abstract class Unit {
     //for ships for whole crew
     private final int proletariatRequirement, aristoiRequirement,
             moneyCost, trainingTime, monthlyWage, basePower;
-    private boolean unlocked;
+    private boolean unlocked, requirementDependsOnAge;
     private final String name;
+    private int ageRequirement;
 
     public Unit(int proletariatRequirement, int aristoiRequirement, int moneyCost, int trainingTime, int monthlyWage, int basePower, String name) {
         this.proletariatRequirement = proletariatRequirement;
@@ -62,6 +63,22 @@ public abstract class Unit {
 
     public String getName() {
         return name;
+    }
+
+    public boolean isRequirementDependsOnAge() {
+        return requirementDependsOnAge;
+    }
+
+    public void setRequirementDependsOnAge(boolean requirementDependsOnAge) {
+        this.requirementDependsOnAge = requirementDependsOnAge;
+    }
+
+    public int getAgeRequirement() {
+        return ageRequirement;
+    }
+
+    public void setAgeRequirement(int ageRequirement) {
+        this.ageRequirement = ageRequirement;
     }
     
     

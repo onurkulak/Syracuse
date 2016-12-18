@@ -17,7 +17,7 @@ public class Mansion extends HousingBuilding {
     private final int TEMPLE_HAPPINESS=0;
 
     public Mansion(int[] housingPerLevel, int[] housingHappinessPerLevel, int cost, int width, int height, int constructionDuration, int id, int upgradeCost1, int upgradeCost2, int maximumAvailableLevel, String name, int[] requiredBuildings, int[] requirementsRange, boolean canBuiltOnlyOnce) {
-        super(housingPerLevel, housingHappinessPerLevel, cost, width, height, constructionDuration, id, upgradeCost1, upgradeCost2, maximumAvailableLevel, name, requiredBuildings, requirementsRange, canBuiltOnlyOnce);
+        super(housingPerLevel, housingHappinessPerLevel, cost, width, height, constructionDuration, id, maximumAvailableLevel, name, requiredBuildings, requirementsRange, canBuiltOnlyOnce);
         mansionsCoveredByTemples=new ArrayList();
     }
     

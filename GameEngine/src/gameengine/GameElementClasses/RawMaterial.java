@@ -16,11 +16,12 @@ public class RawMaterial extends Material {
     
     //production constant is used when harvesting season but not multiplied by 4
     private final double productionConstant;
-    public RawMaterial(int baseTradeCost, int requiredAmountToFillShip, boolean storable, 
-            boolean consumable, boolean edible, boolean tradable, String name, 
-            boolean gathererSlave, boolean isSeason, int season,double productionConstant) 
+    public RawMaterial(int baseTradeCost, int requiredAmountToFillShip, 
+            boolean storable, boolean edible, boolean tradable, String name, 
+            boolean gathererSlave, boolean isSeason, int season,
+            double productionConstant) 
     {
-        super(baseTradeCost, requiredAmountToFillShip, storable, consumable, edible, tradable, name);
+        super(baseTradeCost, requiredAmountToFillShip, storable, edible, tradable, name);
         this.gathererSlave=gathererSlave;
         seasonalMaterial=isSeason;
         this.season=season;

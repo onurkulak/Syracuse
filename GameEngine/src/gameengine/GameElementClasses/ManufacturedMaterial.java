@@ -14,9 +14,12 @@ public class ManufacturedMaterial extends Material{
     private final double[] costAmount;
     private int productionLevel;
 
-    public ManufacturedMaterial(Material[] costType, double[] costAmount, int baseTradeCost, int requiredAmountToFillShip, 
-            boolean storable, boolean consumable, boolean edible, boolean tradable, String name) {
-        super(baseTradeCost, requiredAmountToFillShip, storable, consumable, edible, tradable, name);
+    public ManufacturedMaterial(Material[] costType, double[] costAmount,
+            int baseTradeCost, int requiredAmountToFillShip, 
+            boolean storable, boolean edible, boolean tradable, String name) 
+    {
+        super(baseTradeCost, requiredAmountToFillShip, storable, edible, 
+                tradable, name);
         this.costType = costType;
         this.costAmount = costAmount;
         productionLevel=2;

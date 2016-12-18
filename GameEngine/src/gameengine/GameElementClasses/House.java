@@ -17,7 +17,7 @@ public class House extends HousingBuilding{
     private final int[] SHRINE_HAPPINESS={0,0,0};
 
     public House(int[] housingPerLevel, int[] housingHappinessPerLevel, int cost, int width, int height, int constructionDuration, int id, int upgradeCost1, int upgradeCost2, int maximumAvailableLevel, String name, int[] requiredBuildings, int[] requirementsRange, boolean canBuiltOnlyOnce) {
-        super(housingPerLevel, housingHappinessPerLevel, cost, width, height, constructionDuration, id, upgradeCost1, upgradeCost2, maximumAvailableLevel, name, requiredBuildings, requirementsRange, canBuiltOnlyOnce);
+        super(housingPerLevel, housingHappinessPerLevel, cost, width, height, constructionDuration, id, maximumAvailableLevel, name, requiredBuildings, requirementsRange, canBuiltOnlyOnce);
     housesCoveredByShrines=new ArrayList[2];
     housesCoveredByShrines[0]=(new ArrayList<>());
     housesCoveredByShrines[1]=(new ArrayList<>());

@@ -25,7 +25,7 @@ public class Armory extends ProductionBuilding{
     }
     
     @Override //will be implemented
-    public void updateBonuses(int[][][] cityMap, Building caller, int buildingInstance){
+    public void updateBonuses(int[][] cityMap, Building caller, int buildingInstance){
         super.updateBonuses(cityMap, caller, buildingInstance);
     }
     

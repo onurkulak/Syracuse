@@ -11,7 +11,6 @@ package gameengine.GameElementClasses;
  */
 import java.util.ArrayList;
 public class ThirdAgeFaction extends AIFaction{
-    private final ArrayList<Faction> atWar;
     private final ArrayList<Region> regions;
     private int atThisStateSince;
     private double warSuccessModifier;
@@ -19,7 +18,6 @@ public class ThirdAgeFaction extends AIFaction{
     //graphic stuff thrown for now
     public ThirdAgeFaction(ArrayList<Faction> atWar, ArrayList<Region> regions, int atThisStateSince, double warSuccessModifier, Civic[] favoriteCivics, Material[] tradables, String name) {
         super(favoriteCivics, tradables, name);
-        this.atWar = atWar;
         this.regions = regions;
         this.atThisStateSince = atThisStateSince;
         this.warSuccessModifier = warSuccessModifier;

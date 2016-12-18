@@ -25,7 +25,7 @@ public class Academy extends WorkBuilding{
     
     //will be implemented
     @Override
-    public void updateBonuses(int[][][] cityMap, Building caller, int buildingInstance) {
+    public void updateBonuses(int[][] cityMap, Building caller, int buildingInstance) {
         super.updateBonuses(cityMap, caller, buildingInstance); //To change body of generated methods, choose Tools | Templates.
     }
     

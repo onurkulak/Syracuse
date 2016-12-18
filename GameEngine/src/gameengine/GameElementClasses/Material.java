@@ -15,11 +15,11 @@ public abstract class Material {
     private final String name;
     private int amount;  private boolean allowedToConsume;
     
-    public Material(int baseTradeCost, int requiredAmountToFillShip, boolean storable, boolean consumable, boolean edible, boolean tradable, String name) {
+    public Material(int baseTradeCost, int requiredAmountToFillShip, boolean storable, boolean edible, boolean tradable, String name) {
         this.baseTradeCost = baseTradeCost;
         this.requiredAmountToFillShip = requiredAmountToFillShip;
         this.storable = storable;
-        this.consumable = consumable;
+        this.consumable = true;
         this.edible = edible;
         this.tradable = tradable;
         this.name = name;
