@@ -1,0 +1,349 @@
+Roads: Connects buildings to each other, all buildings must be connected to the palace by the road network to fulfill their purposes. A road is connected to another road only if it borders in one of 4 directions, so diagonal roads are not considered connected.
+
+
+House: Used for housing of proletarii people. Available from the start. Can be upgraded to increase happiness or the number of people that live in the building.
+
+
+Mansion: Used for the housing of aristoi people. Available from the start. Can be upgraded to increase happiness.
+
+
+Granary: Available from the start, this building is used to store barley and wheat, upgraded versions increase the storage capacity. Aristoi people run this place.
+
+
+Palace: Given at start, can be upgraded in later ages to reduce the anarchy time during civic changes. Aristoi people run this place.
+
+
+Docks: Given at start, can be upgraded in later ages to increase the trade ship limit of the city. Any kind of (storable) imported resources can be stored in the stockpiles of the docks. Aristoi and proletarii people run this place.
+
+
+Fishery: Available from the start must be build near a salt merchant and the sea, produces fish resource, can turn additional fish resources at the end of turn to salted fish and store them. City can have at most one of this building but can be upgraded in later ages to increase the fish output, and salted fish stockpile limits. Aristoi and proletarii people run this place.
+
+
+Shrines: Smaller temples for the proletarii, provides happiness proportional to the number of “House”s in its range. Available from the start, can be upgraded to increase happiness. If some houses are already in the range of a shrine, additional shrines doesn’t increase the happiness from these houses. Proletarii people run this place.
+
+
+Temples: Bigger than shrines, these buildings can be used by aristoi to make their prayings, a temple has a greater range than a shrine, happiness is proportional to the mansions in its range. Available from the start, this building requires marble to build and can be upgraded to give additional happiness proportional to the number of shrines and -later- monuments in its range. If some mansions are already in the range of a temple, additional temples doesn’t increase the happiness from these mansions. Aristoi people run this place.
+
+
+Theatre: Available from the second age, this building has the greatest range of all the buildings and gives happiness proportional to the number of houses and mansions in its range. Required for organizing festivals. Upgraded version of the theatre has greater range. Theatre can give additional happiness to all types of people if player allows the consumption of dye by the theater. This building can be built only once. Aristoi people run this place.
+
+
+Library: Available in the second age, this building can be built only once, this building is required to archive victories in battles, so player can later look at his remarkable victories. There are no upgrades for this building. Aristoi people run this place.
+
+
+Academy: Available in the last age, this building must be built near a library. This building converts a number of proletarii people to aristoi people, also increases your general’s strategic qualities by one. Academy converts more people into aristoi if there is an observatory nearby. This building can be built only once. Aristoi people run this place.
+
+
+Observatory: Available in the last age, this building gives a small bonus to your farming outputs (wheat, barley, grapes etc.) in your provinces, this building must be constructed near a library and an academy. This building can be built only once. Aristoi people run this place.
+
+
+Mill: Available from the start, this building turns wheat into flour, requires a granary nearby to build. This building can store flour upto a limit in itself. Upgraded versions produces more flour. Aristoi and proletarii people run this place.
+
+
+
+Bakery: Available from the start, this building makes breads from flour. Bread cannot be stored nor sold in trade. Must be built nearby a mill. Upgraded versions uses less flour. Production amount can be decided by the player since bread cannot be stored. Aristoi and proletarii people run this place.
+
+
+Slave Trader: Available from the start, this building is required to import slaves. Upgraded versions and additional slave traders reduces the cost of buying slaves. Aristoi people run this place.
+
+
+Salt Merchant: Available from the start, this building is required to store salt. Upgraded versions increases the amount of salt stored. Aristoi people run this place.
+
+
+Fabric Workshop: Available from the start, this building can produce fabric from wool and flax. This building can store dye, wool, flax, fabric, and dyed fabric. Upon reaching the second age upgraded version can produce dyed fabric from regular fabric. 3rd age upgrade reduces the dye costs of dyed fabrics. Aristoi and proletarii people run this place. 
+
+
+Tailor: Available from the start, this building produces clothes and dyed clothes from the fabrics. This building must be built nearby a fabric workshop. Upgraded versions reduces the fabric used. Nearby tailors increases the number of dyed clothes produced. Tailor buildings can store clothes and dyed clothes. Aristoi and proletarii people run this place.
+
+
+Jeweler: Available in the last age, this building produces accessories from silver, gold, and ivory. Variety of these resources increases the happiness produced from accessories. This building can store silver, gold, ivory, and accessories. The building itself creates happiness proportional to the number of mansions nearby. Aristoi and proletarii people run this place.
+
+
+Cheese Merchant: Available from the start, this building is required to distribute cheese resource to the people and to store it. Upgrades increases the storage space of the building. Proletarii people run this place.
+
+
+Pig Farm: Available from the start, this building uses barley to produce pigs, this building must be built near a granary. This building stores pigs, upgraded versions reduces the barley used. This building gets reduced barley costs if there are mansions nearby, to represent the pigs’ waste eating. Aristoi and proletarii people run this place.
+
+
+Butchery: Available from the start, this building creates meat from pigs, this building can also store the meat coming from the provinces and the meat coming from pig farms as salted. This building must be built nearby a salt merchant. This building is required to be nearby a pig farm if it is gonna produce meat from pigs. Upgraded butcheries increases the meat output from pigs. Aristoi and proletarii people run this place.
+
+
+Marble-Cutters: This building produces cutted marble from raw marble, this building is available from the start. When upgraded this building increases its cutted-marble output. This building can store both types of marble. Aristoi and proletarii people run this place.
+
+
+Lumber Merchants: Can create lumbers from timbers, and can store both of these resources. Aristoi and proletarii people run this place.
+
+
+Olive Presser: Available from the start, this building creates olive oil from olives.  Upgraded versions increases the output. This building must be built nearby an oil merchant. Aristoi and proletarii people run this place.
+
+
+Oil Merchant: Available from the start,. This building stores the olive oil. Upgraded versions increase the storage capacity. Aristoi people run this place.
+
+
+Grape Juice Distillery: Available from the start, this building produces grape juice from grapes. Upgraded versions increase the output. This building must be built nearby a grape juice merchant. Aristoi and proletarii people run this place.
+
+
+Grape Juice Merchant: Available from the start, this building stores grape juice, and its storage capacity can be increased with the upgrades. Aristoi people run this place.
+
+
+Metal Merchant: Available from the start, this building is required to store iron, gold, silver, and copper. Storing gold and silver can be also done by jewelers. Aristoi people run this place.
+
+
+Forge: Available from the start, this building is required to produce iron from iron ores. Upgraded versions produces more iron from same amount of iron ore. Other forges around a forge reduces the iron ore used in production. Reduces happiness proportional to number of nearby mansions. This building can store iron ore. This building must be built near a metal merchant. Aristoi and proletarii people run this place.
+
+
+Armory: Available from the second age, this building is required to produce armors from copper resource. This building must be built near a metal merchant. This building can store armors. Upgraded versions increases the number of armors produced. Gains bonus to armor production if built near other armories and weapon makers. Aristoi and proletarii people run this place.
+
+
+Weapon Maker: Available from the 2nd age, this building is required to create weapons from iron. This building must be built near a metal merchant. Upgraded version allows swords to be made, spears and arrows are available from start. Gains bonus to weapon production if built near other armories and weapons makers. Aristoi and proletarii people run this place.
+
+
+Glass Maker: This building is required to produce and store glass, this building does not use any raw resources. This building can be only built if the player has conquered the Lilybaeum, the Carthaginian city in the Sicily. This is to represent the Phoenician monopoly in glassworks and to reward the player. Aristoi and proletarii people run this place.
+
+
+Pottery Maker: Available from the 2nd age, this building is required to produce and store potteries without using any raw resources. Aristoi and proletarii people run this place.
+
+
+Stable: Available from the 3rd age, this building is required to breed and store horses while consuming barley. Aristoi and proletarii people run this place.
+
+
+Archery Range: Available from the 3rd age, this building is required to create pretty advanced ranged units, such as toxotes and peltasts. There must be a barrack nearby to construct this building. This building can be constructed only once. Proletarii people run this place.
+
+
+
+
+Siege Workshop: Available from the 3rd age, this building is required to construct onagers that gives advantages during attacking cities. There must be a library nearby to construct this building. This building can be constructed only once. Aristoi people run this place.
+
+
+Barrack: Available from the second age, this building is required to train most units. This building can be constructed only once. Upgraded version allows the training of phalangites. Proletarii people run this place.
+
+
+General’s Headquarters: Available from the third age, this building increases the number of armies player can simultaneously control in the Sicily layer by two and the number of navies player can control by one. This building must be constructed nearby the palace. This building can be constructed only once. Aristoi people run this place.
+
+
+Shipyard: Available from the 2nd age, this building is required to build warships. With the third age upgrade ship construction times becomes shorter. There must be a lumber merchant nearby to build this building. Can be build more than once. Must be built near the sea. Aristoi and proletarii people run this place.
+
+
+Lighthouse: Available from the 2nd age, this building increases the amount of trade offers player gets, there is no upgraded version of this building. Can only be built once, and must be built near the sea. Proletarii people run this place.
+
+
+Courthouse: Available from the 3rd age, this building must be build near the palace. This building initially has no features, but can gain features from the policies that player using. For example courthouse can give additional happiness proportional to number of “house”s in its range if user is running democracy, or for mansions if player is running oligarchy etc. This building can be built only once. Aristoi people run this place.
+
+
+Agora: Available from the start, this building represents the trade center of the city and gives significant bonus to all adjacent manufactured goods producer buildings, if there’s a merchant of the produced good, instead only this merchant building gets the bonus. For example jeweler gets the bonus to itself when it’s adjacent to the agora, but olive presser building does not get the bonus for being adjacent to agora, since there’s an oil merchant version of the building. Agora also works as a road for connecting buildings. Agora can be build only once.
+
+
+Public Bath: Available from the 3rd age, this building gives happiness proportional to the number of houses and mansions in its range, residences that are already in a bath’s range are not counted twice. When adjacent to agora, this building’s range becomes significantly increased. Aristoi and proletarii people run this place.
+
+
+Monuments: Available from the 3rd age, these buildings can be built only in the next month of an important battle which a popular general defeated a large enemy army. Requires marble to build and gives permanent happiness bonus to government type that is used by the player. For example, if player is running tyranny and wins a large battle, the tyranny civic is permanently becomes marked with a happiness bonus; and whenever the civic is tyranny this bonus is applied again. Monuments must be built near the palace.
+
+
+Claw of Archimedes: Historically a defending weapon created by Archimedes for the Syracuse, this building is available in the last age. This building requires the library, the academy, and the observatory to be built in city. This building must be built adjacent to walls and can be built only once. This building hurts the navies of enemies if they are blockading the Syracuse’s port. 
+
+The Great Lighthouse: Represents the trade power of your city. Requires good relations with at least 4 other factions, and a navy of at least 200 ships.
+
+
+The Colossus: Represents the naval supremacy of your city. Requires defeating a total of 1000 enemy ships during the game and large amount of copper resource.
+
+
+The Parthenon: Represents the inner happiness of your city. Requires a minimum amount of happiness of both kinds (not decided on the amount yet) and requires large amount of marble to finish.
+
+
+The Statue of Zeus: Represents the military might of your city. Requires a general of popularity 10 and an army of at least 30,000 soldiers. Requires large amounts of ivory and gold to be constructed.
+
+Flour: Can be produced from mills, by spending wheat, used for making bread. Cannot be traded.
+
+
+Bread: Can be easily produced in large quantities even from small amounts of wheat and flour, because of this feature bread is very suitable for feeding huge populations, requires bakeries to produce from flour. Cannot be traded.
+
+
+Meat: Can be produced from porks in the city and from the sheep provinces. Cannot be traded.
+
+
+Salted Meat: Uses salt and meat as a resource in butcheries and makes the meat storable. 
+
+
+Salted Fish: Uses salt and fish as a resource in fisheries and makes the fish storable.
+
+
+Cheese: Produced from sheep provinces, doesn’t have a use except consuming, can be stored and traded in the city.
+
+
+Olive Oil: Can be produced from olive raw resource in oil pressers. Olive oil does not consumed as a real food, but gives additional happiness when accessed.
+
+
+Glass: Glass gives happiness to people and also is a very high profitable for trade purposes because it can be produced from glassmakers without using any raw resources.
+
+
+Pottery: Pottery gives happiness to people and also is a profitable good for trade purposes because it can be produced from pottery workshops without using any raw resources.
+
+
+Wool: Produced from provinces that have sheeps. Cannot be traded.
+
+
+Fabric: Can be produced from wool or flax by fabric workshops.
+
+
+Dyed Fabric: Can be produced by fabric merchants using a regular fabric and dye resource.
+
+
+Clothes: Can be produced by consuming fabric by tailors.
+
+
+Dyed clothes: Can be produced from dyed fabrics by tailors, especially useful for trade purposes and for the happiness of your rich-aristoi people.
+
+
+Wine: Can be produced in distilleries by using grapes. Makes poor-proletarii people happier, can be used in festivals to boost happiness.
+
+
+Lumber: Produced from timber by lumber merchants. Used for advanced ships in the game.
+
+
+Processed Marble: Processed and shaped version of marble for buildings. Needs stonecutter building to produce.
+
+
+Accessories: Can be produced from ivory, gold, or silver resources by jewelers. Increases the happiness of the aristoi and an important source of trade income for the player.
+
+
+Armour: Weared by some class of soldiers, armours are produced from armouries by using copper resource. Cannot be traded.
+
+
+Iron: Produced from iron ores in the forges, used for producing weapons. 
+
+Spears-Arrows: Requires small amount of iron to produce, used by most soldiers in the game, requires weapon maker to produce from iron resource. Cannot be traded.
+
+
+Sword: Used by small but elite portion of the soldiers, requires more iron than the spears and arrows, requires weapon maker. Cannot be traded.
+
+
+Horses: Horses can be breeded within city walls by spending barley resource in stables, they are used for mounted soldiers. Cannot be traded.
+
+
+Pigs: Pigs are a cheap way of producing meat thus making your people’s diet more enjoyable for them. Pigs can be produced within city walls in pig farms using barley. Pigs cannot be traded but can be stored.
+
+
+Slave: Slaves can be considered as a resource in the game, since they can be bought in trade screen, they are bought to work in some raw resource fields. 
+
+Fish: Only used for eating by people, must be salted to sell and stock, can be imported as salted.
+
+
+Sheep: Sheep itself is not a resource, but provinces that have sheeps can produce these resources: cheese, meat, and wool. This resource can be collected by proletarii.
+
+
+Wheat: Can be processed-milled to create flour, which is used for breads, the most basic food in the game. This resource can be collected by proletarii.
+
+
+Barley: The most basic grain of the ancient times, can be used to feed animals such as horses or pigs. Can be eaten during shortages of food by the people but gives unhappiness. This resource can be collected by proletarii.
+
+
+Olive: The trademark of the Greek export in antiquity, this resource can be used to make olive oil which was a great source of income for the Greeks during antiquity. This resource can be collected by proletarii. Trading as a raw resource is not allowed.
+
+
+Flax: Flax was the main material of clothing during the ancient times along with the wool, can be used to make clothes. This resource can be collected by the slaves.
+
+
+Marble: After shaped in a stone masonry, marble can be used in construction of some buildings. This resource can be collected by slaves.
+
+
+Dye: Dye was a very important luxury resource during antiquity, significant examples as “Tyrian purple” helped to shape the ancient history, and in the game it can be processed to make dyed clothes, which are luxury resources that can make your “Aristoi” part of the people happier. This resource is also used by the theatre building.
+
+
+Grape: Can be processed to make wine in the city. This resource can be collected by proletarii. Trading as a raw resource is not allowed.
+
+
+Gold and Silver: Can be processed to create accessories, gold cannot appear on the Sicily map since it was very rare in Mediterranean. This resource (silver) can be collected by slaves.
+
+
+Copper: Can be used to produce armors for the soldiers. This resource can be collected by slaves.
+
+
+Iron Ore: City first must built a forge to make use of iron ore, iron later can be used to produce weapons. Cannot be traded in the ore form. This resource can be collected by slaves.
+
+
+Timber: Timber represents the high-quality trees of the antiquity, like the cedars of Lebanon, must be turned into lumber before trading or using. Unlike in the most other strategy games lumber is not used for buildings in our game, but it is used for more advanced ships. This resource can be collected by proletarii.
+
+
+Ivory: Can be used to make accessories, cannot be found on Sicily’s provinces because of obvious geographical reasons.
+
+
+Salt: Can be used to store meat and fish resources. This resource can be collected by slaves.
+
+Hoplites: The most basic unit in the game, fights with a spear in melee, requires spear-arrow resource to recruit, have short recruitment times, trained as a militia unit. Proletariat people can form the hoplite units. This unit does not have any bonuses. Is a melee infantry unit. Available if player has barracks.
+
+
+Slingers: Throws stones, the most basic ranged unit of the game. Does not require any additional resources to produce, can be formed from proletariat. Fights better against unarmored soldiers and while defending cities, otherwise a very weak unit. Trained as a militia unit. Is a ranged unit. Available if player has barracks.
+
+
+Peltasts: Javelin throwers of the Ancient Greek. Requires spear-arrow resource to build, can be formed from proletariat. Fights better against armored melee infantry soldiers of the enemy, fights better when defending cities. Requires archery range to recruit. Is a ranged unit. Trained as a standing army unit.
+
+
+Toxotes: Archery unit of the Ancient Greek. Requires spear-arrow resource to build, can be formed from proletariat. Fights better against melee infantry soldiers of the enemy, and gains bonus proportional to the size of the army they are in. Fights better when defending cities. Requires archery range to recruit. Is a ranged unit. Trained as a standing army unit. Can be also found in Roman armies.
+
+
+Phalangites: Backbone of the Greek armies, these strong units carry long spears and are armored infantries. Requires armor and spear-arrow resource to recruit, can be formed from the proletariat. Fights better against mounted units, and the hoplites. Trained as a standing army unit and is a melee infantry unit. Requires upgraded version of barracks.
+
+
+Hetairoi: Shock cavalries used by the Alexander the Great, these units require sword, horse, and armour to recruit. This unit has bonuses against unarmored infantry and ranged units, this unit also gains bonus proportional to the number of hetairoi units in the army and the tactical abilities of the commander. This unit can be formed from aristoi people, is a mounted unit, and trained as a standing army unit.
+
+
+Onager: Siege engines of the ancient times, this unit can be recruited without using resources except the money, unit can be formed from aristoi people. Onagers helps to neutralize the bonuses of the city defenders when attacking cities. This unit is trained as a standing army unit. This unit becomes destroyed if the army it’s in loses the battle. Can be found in Roman armies.
+
+
+Manipulus: The legionaries of the Roman army, can be recruited by the player only if the player has conquered the Messina in Sicily. Requires sword and armor to recruit, can be recruited from proletariat. Can be found in Roman armies in the Sicily. Fights better against other infantry units and when attacking cities. Considered as a melee infantry and a standing army unit.
+
+
+Equites: The cavalries of the Roman army, cannot be recruited by the player. Has no bonuses. Considered as a mounted unit.
+
+
+Numidian Cavalry: The cavalries of the Carthage army, cannot be recruited by the player. Has bonuses against mounted units and gains extra bonuses if the enemy’s cavalry forces are smaller than that of Carthage’s. Considered as a mounted unit.
+
+
+War Elephants: The most interested instrument of the Carthage’s war machine, these units are unmatched in the open field battles and has bonuses against all the units that have no bonus against mounted units. Considered as a mounted unit. This unit can also be found in mercenary armies.
+
+
+Balearic Slingers: Basic ranged unit of the Carthage’s armies. Has bonuses against other ranged units. Considered as a ranged unit.
+
+
+Libyan Infantries: Basic infantry unit of the Carthage’s armies, has no bonuses. Considered as a melee infantry unit.
+
+
+Tarantine cavalry: Can be found in hirable mercenary armies, has bonuses against mounted units. Considered as a mounted unit.
+
+
+Mercenary Hoplite: Stronger than regular hoplites, these units exist in every mercenary army that is hirable, has a slight bonus against other melee infantry units. Considered as a melee infantry unit.
+
+
+War Chariots: Can be found in hirable mercenary armies, this unit gains bonus as the enemy army’s size becomes smaller than yours, resulting in losing less soldiers in the battles that you are already the stronger participant. Considered as a mounted unit.
+
+
+About Game: Syracuse is a turn based city/state building simulation/strategy game inspired by the game Tropico. In this game the player takes control of the city Syracuse during the antiquity. The main goal of the player is to defend, expand and develop his/her city. This report contains all the information relating to this game. It starts with an overview which details the gameplay interface, the factors affecting the outcomes and different types of gameplay elements. Then it dives into the functional and nonfunctional requirements. And lastly it shows the use cases of this game using a Use Case Diagram and explains them using scenarios.
+
+
+Buildings: Some buildings have only the purpose of storing things, so a player that does not produce these resources can still import and distribute these resources, like oil merchant, grape juice merchant etc. Range requirements are calculated by using how many tiles of road is passed. Agora counts equal to 3 tiles of road. Some buildings require a type and amount of people to run amounts are not decided yet but the types of people that will work on these buildings are given below.
+
+
+Manufactured Goods: Most buildings have a purpose of producing manufactured goods, see buildings.
+
+Wonders: All wonders can be built only in the last age, and take a lot of time and resources to build. It’s ahistorical but these wonders can be the Greek wonders of the ancient world; like the Great Lighthouse, Colossus of Rhodes, Statue of Zeus, or the Parthenon. Each can be built after completing a special achievement. For example the Colossus of Rhodes can be built only after winning a huge naval war.
+
+Raw Resources: Raw resources can be gathered from the controlled provinces in the Sicily layer by the player, only exception to this rule is the fish resource which can be gathered by the fishing buildings in the city.
+
+Units: Land units can be produced in three ways in Syracuse and all the ways require money to produce-acquire units. One by having militia units, that are usually weak, cheap, and good at defending the city and since they are normally working people during peacetime militias don’t have much effect on your manpower except the wartimes. 
+
+
+General Traits: The first attribute is strategic abilities, this attribute gives combat bonus when controlling large powers and increases the retreat possibility. The second attribute is tactical abilities, this ability gives combat bonus when controlling smaller forces and reduces the enemy’s retreat chances. The third attribute is a general’s naval understanding, this bonus is straightforward and gives combat bonus when this general is controlling navies. The last attribute is the popularity of a general, upon winning large battles the city receives a happiness bonus in Syracuse, and popular generals increases this bonus in the city. However if the city is unhappy in general, if a popular general thinks he has an army of enough strength, he can try to overthrow the player. This betrayal mechanic is similar to the mercenary rebellion mechanic, which an army claims a province and starts conquering adjacent ones and maybe eventually conquering the Syracuse itself. When popular generals are called to the city to detach them from their army, this mechanic might be triggered considering the power of the general’s army and the happiness situation in the city. Another property of generals is their age, generals can die because of their age, if a general dies while running an army player will be asked to attach a new general from the general pool. Another feature of the age attribute is that young and successful generals can accumulate popularity attribute easier than the older ones.
+
+
+Civilizations: Antigonids might ask you to stop trading with Seleucids or Ptolemy if they are at war with these civilizations.
+Antigonids might ask you to build religion related buildings.
+
+Seleucids might want you to adopt the “tyranny” governmental civic if you haven’t already.
+Seleucids might ask you to stop trading with Antigonids or Ptolemy if they are at war with these civilizations.
+Seleucids might ask you to build military related buildings.
+
+Ptolemy might want you to adopt the “militia” military civic  if you haven’t already.
+Ptolemy might ask you to stop trading with Seleucids or Antigonids if they are at war with these civilizations.
+
+
+Syracuse: Syracuse is a turn based city-state building simulation game mainly inspired by the game Tropico. The game gives the control of the Syracuse to the player which was an ancient city-state and regional power in Sicily during Hellenistic Period. Every turn in the game represents one month in real life. Basically, in the game, player will start with a barren colonial city and some raw material sources, as game progresses he will improve his city and trade resources to gain access new resources. As the player gets stronger he will step into new ages, that will give him access to new buildings, soldiers, resources etc. Eventually, in the end player might get stronger enough to conquer whole Sicily from the foreign powers. However, this game is not a sandbox game, player will have to deal with extremely strong foreign empires, his unhappy revolting society, his popular generals who might overthrew him from the throne, economic crisis, sieges, naval blockades etc. In Syracuse player starts as the smallest fish in the sea, and only if he plays wise, he will survive in this age of turmoil.
